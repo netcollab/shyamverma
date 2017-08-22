@@ -49,8 +49,8 @@
 
 <div class="popup-gallery">
 	<a href="website-gallery/creations/buddha 2(120x72)inch-sold.jpg" title=""><img src="website-gallery/creations/buddha 2(120x72)inch-sold.jpg" width="200" height="200"></a>
-	<a href="http://farm9.staticflickr.com/8382/8558295631_0f56c1284f_b.jpg" title=""><img src="http://farm9.staticflickr.com/8382/8558295631_0f56c1284f_b.jpg" width="200" height="200"></a>
-	<a href="http://farm9.staticflickr.com/8225/8558295635_b1c5ce2794_b.jpg" title=""><img src="http://farm9.staticflickr.com/8225/8558295635_b1c5ce2794_b.jpg" width="200" height="200"></a>
+	<a href="website-gallery/creations/buddha 2(120x72)inch-sold.jpg" title=""><img src="website-gallery/creations/buddha 2(120x72)inch-sold.jpg" width="200" height="200"></a>
+	<a href="website-gallery/creations/buddha 2(120x72)inch-sold.jpg" title=""><img src="website-gallery/creations/buddha 2(120x72)inch-sold.jpg" width="200" height="200"></a>
 	<a href="http://farm9.staticflickr.com/8383/8563475581_df05e9906d_b.jpg" title=""><img src="http://farm9.staticflickr.com/8225/8558295635_b1c5ce2794_b.jpg" width="200" height="200"></a>
 	<a href="http://farm9.staticflickr.com/8235/8559402846_8b7f82e05d_b.jpg" title=""><img src="http://farm9.staticflickr.com/8225/8558295635_b1c5ce2794_b.jpg" width="200" height="200"></a>
 	<a href="http://farm9.staticflickr.com/8235/8558295467_e89e95e05a_b.jpg" title=""><img src="http://farm9.staticflickr.com/8225/8558295635_b1c5ce2794_b.jpg" width="200" height="200"></a>

@@ -44,9 +44,9 @@
 	
     <div class="md-col-12 up-heritage">
 
-    <a href="http://localhost/sverma/heritage-paintings-up.php"><button type="button" class="btn btn-warning">Heritage Paintings - UP</button></a>
-    <a href="http://localhost/sverma/heritage-paintings-lucknow.php"><button type="button" class="btn btn-warning">Heritage Paintings - Lucknow</button></a>
-    
+    <a href="heritage-paintings-up.php"><button type="button" class="btn btn-warning">Heritage Paintings - UP</button></a>
+    <a href="heritage-paintings-lucknow.php"><button type="button" class="btn btn-warning">Heritage Paintings - Lucknow</button></a>
+
     </div>
 
        

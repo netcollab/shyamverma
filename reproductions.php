@@ -24,7 +24,7 @@
 
     <section id="infobar" class="drop-shadow lifted span6">
     <div class="container">
-        <h1 style="line-height:0px;">Creations</h1>
+        <h1 style="line-height:0px;">Reproductions</h1>
       <div class="clearfix"></div>
     </div>
   </section>
@@ -50,7 +50,7 @@
 
  <?php
 
-$dir = "website-gallery/creations";
+$dir = "website-gallery/Reproductions";
 
 // Open a directory, and read its contents
 if (is_dir($dir)){
@@ -65,7 +65,7 @@ if (is_dir($dir)){
 
 	    
 
-		<a href="website-gallery/creations/<?php echo $file ?>" title=""><img src="website-gallery/creations/<?php echo $file ?>" width="214" height="200"></a>
+		<a href="website-gallery/Reproductions/<?php echo $file ?>" title=""><img src="website-gallery/Reproductions/<?php echo $file ?>" width="214" height="200"></a>
 		
 	<?php
 		}

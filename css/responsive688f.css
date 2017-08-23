@@ -1,0 +1,112 @@
+@media only screen and (min-width: 768px) and (max-width: 1170px) {   
+
+
+
+}
+
+
+
+/* Note: Design for a width of 320px */
+@media only screen and (max-width: 767px) {
+.span3 {  float:none;  display:block;  } 
+.span6 {  float:none;  display:block;  } 
+.text-align-right {text-align:left;}
+.align-left {  float:none;  display:block; text-align:left; }
+.align-right {  float:none;  display:block; text-align:left; }
+
+.skill_graph {padding-top:10px;}
+#infobar a, #infobar2 a {margin-left:0px;}
+
+header {padding-bottom:0px;}
+.logo-site {height:50px;}
+
+.facebook {margin-left:0px; margin-right:10px;}
+.twitter {margin-left:0px; margin-right:10px;}
+.linkedin {margin-left:0px; margin-right:10px;}
+.google {margin-left:0px; margin-right:10px;}
+
+.services-4 {margin-top:50px;}
+
+.widgetf {margin-top:60px;}
+.widget {margin-top:50px;}
+
+.post-title h2 {margin: 0 0 5px 0px;}
+.post-meta {padding: 0px 0 15px 0px;}
+
+
+#site-menud.floating {
+  position: inherit;
+  top: auto;
+  margin-top:0; padding-bottom:20px;
+  -webkit-box-shadow: 0px 0px 0px 0px #fff;
+   box-shadow: 0px 0px 0px 0px #fff; 
+}
+
+.portfolio-c3 {float:none; width:100%;}
+.portfolio-c4 {float:none; width:100%;}
+
+}
+
+
+
+/* Note: Design for a width of 480px */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.span3 {  float:none;  display:block;  } 
+.span6 {  float:none;  display:block;  } 
+.align-left {  float:none;  display:block; text-align:left; }
+.align-right {  float:none;  display:block; text-align:left; }
+
+
+#infobar a, #infobar2 a {margin-left:0px;}
+
+
+header {padding-bottom:0px;}
+.logo-site {height:50px;}
+
+.facebook {margin-left:0px; margin-right:10px;}
+.twitter {margin-left:0px; margin-right:10px;}
+.linkedin {margin-left:0px; margin-right:10px;}
+.google {margin-left:0px; margin-right:10px;}
+
+.services-4 {margin-top:50px;}
+
+.widgetf {margin-top:60px;}
+.widget {margin-top:50px;}
+
+.post-title h2 {margin: 0 0 5px 0px;}
+.post-meta {padding: 0px 0 15px 0px;}
+
+
+#site-menud.floating {
+  position: inherit;
+  top: auto;
+  margin-top:0; padding-bottom:20px;
+  -webkit-box-shadow: 0px 0px 0px 0px #fff;
+   box-shadow: 0px 0px 0px 0px #fff; 
+}
+
+.portfolio-c3 {float:none; width:100%;}
+.portfolio-c4 {float:none; width:100%;}
+
+}
+
+
+
+@media only screen and (max-width: 767px) { 
+
+.in-slide-content {
+ max-width:300px;
+ top:30%;
+ bottom:auto;
+ padding-top:20px;
+ padding-bottom:10px;
+ position:absolute;
+}
+.in-slide-content h3 {
+ font-size:14px;
+}
+.in-slide-content p {
+ font-size:11px;
+}
+
+}

@@ -1,17 +1,13 @@
 <?php include("header.php");?>
+  
+  
 
-<!-- Magnific Popup core CSS file -->
-<link rel="stylesheet" href="./assets-gallery/css/magnific-popup.css">
 
-<!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
-<!-- Magnific Popup core JS file -->
-<script src="./assets-gallery/js/jquery.magnific-popup.js"></script>
- 
-
-	
+<!--<a href="#" id="arrow_left"><img src="wp-content/themes/jedkey/plugins/vegas/lib/images/demo/arrow_left.png" alt="Slide Left" /></a>
+		<a href="#" id="arrow_right"><img src="wp-content/themes/jedkey/plugins/vegas/lib/images/demo/arrow_right.png" alt="Slide Right" /></a>-->
 		
+		<img id="cycle-loader" src="images/ajax-loader.gif" />
 		<div id="maximage">
 
 
@@ -24,7 +20,7 @@
 
     <section id="infobar" class="drop-shadow lifted span6">
     <div class="container">
-        <h1 style="line-height:0px;">Creations</h1>
+        <h1 style="line-height:0px;"> Approach</h1>
       <div class="clearfix"></div>
     </div>
   </section>
@@ -43,46 +39,21 @@
 	<div class="row-fluid">
 	
     
+    				<div class="row-fluid">
+<div class="span5" style="text-align:justify; font-size:16.4px; line-height:23.5px; height:52vh">
 
-       
 
-<div class="popup-gallery">
+<div class="tab-content"><div id="tab-1-1" class="tab-pane active">
+<p>Shyam Verma is essentially a portrait painter. This in no way should be taken in restrictive sense. As Ruskin once claimed that ‘the best pictures that of the great schools are all portraits, or group of portraits, often very simple and in nowise noble persons….. Their real strength is tried to the utmost, and as far as I know, it is never elsewhere brought out so thoroughly as in painting one man or woman, and the soul that was in them…..'</p>
+<p>
+Art, if anything, is a tribute to man's own humanity and this can be directly ascribed to the popularity of portrait painting.</p>
+</div></div>
+			
+			
 
- <?php
-
-$dir = "website-gallery/creations";
-
-// Open a directory, and read its contents
-if (is_dir($dir)){
-  if ($dh = opendir($dir)){
-    while (($file = readdir($dh)) !== false){
-      
-    	if($file !='.' && $file !='..')
-    	{
-
-	      //echo "filename:" . $file . "<br>";
-	    ?>
-
-	    
-
-		<a href="website-gallery/creations/<?php echo $file ?>" title=""><img src="website-gallery/creations/<?php echo $file ?>" width="214" height="200"></a>
-		
-	<?php
-		}
-
-	}
-    closedir($dh);
-  }
-}
-
-?>
-	
 </div>
-     
-        
-   
 
-
+</div>
 <p>&nbsp;</p>
 
 
@@ -119,30 +90,6 @@ if (is_dir($dir)){
   </section>
 </div>
 </footer>
-<script>
-
-
-$(document).ready(function() {
-	$('.popup-gallery').magnificPopup({
-		delegate: 'a',
-		type: 'image',
-		tLoading: 'Loading image #%curr%...',
-		mainClass: 'mfp-img-mobile',
-		gallery: {
-			enabled: true,
-			navigateByImgClick: true,
-			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
-		},
-		image: {
-			tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
-			titleSrc: function(item) {
-				return item.el.attr('title') + '<small></small>';
-			}
-		}
-	});
-});
-
-</script>
 
  
 <?php include("footer.php");?>

@@ -24,7 +24,7 @@
 
     <section id="infobar" class="drop-shadow lifted span6">
     <div class="container">
-        <h1 style="line-height:0px;">Creations</h1>
+        <h1 style="line-height:0px;">Heritage Paintings - UP</h1>
       <div class="clearfix"></div>
     </div>
   </section>
@@ -42,7 +42,12 @@
 
 	<div class="row-fluid">
 	
-    
+    <div class="md-col-12 up-heritage">
+
+    <button type="button" class="btn btn-warning"><a href="http://localhost/sverma/heritage-paintings-up.php">Heritage Paintings - UP</a></button>
+    <button type="button" class="btn btn-warning"><a href="http://localhost/sverma/heritage-paintings-lucknow.php">Heritage Paintings - Lucknow</a></button>
+
+    </div>
 
        
 
@@ -50,7 +55,7 @@
 
  <?php
 
-$dir = "website-gallery/creations";
+$dir = "website-gallery/heritage-paintings/UP-heritage";
 
 // Open a directory, and read its contents
 if (is_dir($dir)){
@@ -65,7 +70,7 @@ if (is_dir($dir)){
 
 	    
 
-		<a href="website-gallery/creations/<?php echo $file ?>" title=""><img src="website-gallery/creations/<?php echo $file ?>" width="214" height="200"></a>
+		<a href="website-gallery/heritage-paintings/UP-heritage/<?php echo $file ?>" title=""><img src="website-gallery/heritage-paintings/UP-heritage/<?php echo $file ?>" width="214" height="200"></a>
 		
 	<?php
 		}
